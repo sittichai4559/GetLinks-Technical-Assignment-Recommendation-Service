@@ -17,29 +17,29 @@ FastAPI Application
 │  
 ├── PostgreSQL (User, Content, Watch History)  
 │  
-└── Redis Cache (Recommendation Cache)
+└── Redis Cache (Recommendation Cache)  
 
 ---
 
 ## Project Structure
-
-recommendation-service
-│
-├── app
-│   ├── main.py                # FastAPI entry point
-│   ├── recommendation_service.py
-│   ├── database.py
-│   └── redis_client.py
-│
-├── init
-│   ├── 01_schema.sql
-│   └── 02_seed.sql
-│
-├── docker-compose.yml
-├── Dockerfile
-├── k6_recommendation_test.js
-└── README.md
-
+  
+recommendation-service  
+│  
+├── app  
+│   ├── main.py                # FastAPI entry point  
+│   ├── recommendation_service.py  
+│   ├── database.py  
+│   └── redis_client.py  
+│  
+├── init  
+│   ├── 01_schema.sql  
+│   └── 02_seed.sql  
+│  
+├── docker-compose.yml  
+├── Dockerfile  
+├── k6_recommendation_test.js  
+└── README.md  
+  
 ---
 
 # System Flow
